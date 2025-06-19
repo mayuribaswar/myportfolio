@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="pstyle.css">
+    <script src="https://kit.fontawesome.com/18ffeb2ad7.js" crossorigin="anonymous"></script>
+    <!-- <script src="pscript.js"></script> -->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="wrap">
+            <h2 class="logo">Porfo<span>lio</span></h2>
+            <nav>
+                <!-- <img src="images/logo.jpeg" width = 200px height =50px class="logo"> -->
+                <ul class="navlist" id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <!-- <li><a href="#">MY services</a></li> -->
+                    <li><a href="#services">MY PROJECTS</a></li>
+                    
+                    <li><a href="#contact">CONTACT</a></li>
+                  
+
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="colsemenu()"></i>
+                    <!-- <i class="fa-solid fa-moon" id="theme-icon" onclick="toggleTheme()"></i> -->
+                </ul>
+           
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+               
+            </nav>
+        </div>
+            <div class="header-text">
+                <h1>HI , I'am <br><span>MAYURI </span>Bandu Aswar</h1>
+                <p>Welcome to my Portfolio Page !</p>
+                 <p class="tagline">A Computer Engineering Student</p>
+            </div>
+        </div>
+        
+    </div>
+    
+           
+    
+    <!-- About section -->
+    <div id="about" class="section">
+  <div class="container">
+    <h1 class="sub-title">About Me</h1>
+    <div class="about-content">
+      <div class="about-img">
+        <img src="myprofile.jpeg" alt="Profile Image" />
+      </div>
+      <div class="about-text">
+       <p>
+    I'm a passionate Computer Engineering Student,
+    I enjoy exploring technologies like IoT and AI.
+    I've built web projects like a Spotify clone and a food ordering website.
+    Always eager to learn, code, and sing in my free time!
+  </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="education" class="section">
+  <div class="container">
+    <h1 class="sub-title">Education</h1>
+    <div class="timeline">
+    
+      <!-- Bachelor -->
+      <div class="timeline-item">
+        <div class="circle">
+          <img src="education.png" alt="circle image" />
+        </div>
+        <div class="timeline-content left">
+          <h4>Bachelor of Engineering <span>2024 – 2027</span></h4>
+        </div>
+        <div class="timeline-content right">
+          <p><strong>G.E.S.R.H. Sapat College of<br>Engineering, Nashik</strong><br>
+          Pursuing B.E. in Computer Science with a focus on Web Development, IoT, and AI. Eager to build innovative solutions through real-world projects and research.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Diploma -->
+      <div class="timeline-item">
+        <div class="circle">
+          <img src="education.png" alt="circle image" />
+        </div>
+        <div class="timeline-content left">
+          <h4>Diploma in IT <span>2021 – 2024</span></h4>
+        </div>
+        <div class="timeline-content right">
+          <p><strong>Government Polytechnic, Jalgaon</strong><br>
+          Completed Diploma in Information Technology. Gained hands-on experience in HTML, CSS, JavaScript, and built projects like a Spotify clone and food ordering website. Passionate about learning and creating interactive user experiences.
+          </p>
+        </div>
+      </div>
+      
+      <!-- SSC -->
+      <div class="timeline-item">
+        <div class="circle">
+          <img src="education.png" alt="circle image" />
+        </div>
+        <div class="timeline-content left">
+          <h4>SSC <span>June 2020</span></h4>
+        </div>
+        <div class="timeline-content right">
+          <p><strong>R.R. Highschool, Jalgaon</strong><br>
+          Completed Secondary Education with 92% marks. Developed early interest in technology and creative problem-solving.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--                            MY skills               -->
+  <div id="skills" class="skills-section">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">java</div>
+    <div class="skill-card">HTML/CSS</div>
+    <div class="skill-card">PHP</div>
+    <div class="skill-card">Excel</div>
+    <div class="skill-card">PowerPoint</div>
+  </div>
+</div>
+
+
+
+    <!-- -----------------------My services ----------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div class="project">
+                    <img src="Qr-generator.jpeg" alt="">
+                    <div class="layer">
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>QR generator</h2>
+                    <p>This is QR Genrator system which generates QR ,downloadable image </p>
+                    <a href="https://mayuriaswar-coder.github.io/QR-generation/">Learn more</a>
+                </div>
+                </div>
+                <div class="project">
+                    <img src="spotify.PNG" alt="">
+                    <div class="layer">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Spotify Clone </h2>
+                    <p>Using Html ,Css I have developed the front page of spotify website </p>
+                    <a href="https://mayuribaswar.github.io/spotifyclone/">Learn more</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="project2.PNG" alt="">
+                    <div class="layer">
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Food Ordering System</h2>
+                    <p>This project is developed in PHP language ,This was my Diploma Major project </p>
+                    <a href="http://localhost/ordersimple/index.php">Learn more</a>
+                   </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+
+
+        </div>
+
+    </div>
+    <!-- Contact -->
+
+
+  
+<div id="contact">
+  <div class="container">
+     <h1 class="sub-title">Contact Me</h1>
+    <div class="row contact-row">
+      <div class="contact-left">
+       
+        <p><i class="fa-solid fa-paper-plane"></i> aswarmayuri7@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> 9359984993</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="mayuri-bandu-aswar-8b0314280/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/mayuribaswar"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="Mayuri Resume.pdf" download class="btn download-btn">
+          <i class="fa-solid fa-download"></i> Download CV
+        </a>
+      </div>
+
+      <div class="contact-right">
+        <form>
+          <div class="form-group">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="Email" placeholder="Your Email" required />
+          </div>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn submit-btn">
+            <i class="fa-solid fa-paper-plane"></i> Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+     <footer>
+    <p>Let's Connect! | © 2025 Mayuri Bandu Aswar</p>
+  </footer>
+   
+
+    <script>
+        // about section js
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+     document.getElementById(tabname).classList.add("active-tab");
+
+     // media query section js
+     
+}
+var side = document.getElementById("sidemenu");
+
+      function openmenu(){
+        side.style.right = "0";
+      }
+
+      function colsemenu(){
+        side.style.right = "-400px";
+      }
+
+      
+    </script>
+</body>
+</html>
